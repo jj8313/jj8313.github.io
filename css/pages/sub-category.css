@@ -1,0 +1,9 @@
+@import "../reset.css"; /* 브라우저 자체에 있는 css 없애는 css */
+@import " ../common.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "../components/product-list.css";
+
+.main {
+  padding-top: 30px;
+}

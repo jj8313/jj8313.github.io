@@ -1,0 +1,10 @@
+/* css 파일 끼리 연결 할수 있는 방법 */
+@import "reset.css"; /* 브라우저 자체에 있는 css 없애는 css */
+@import "components/header.css";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@100..900&family=Sunflower:wght@300;500&display=swap");
+@import "slider.css";
+@import "intro.css";
+
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
